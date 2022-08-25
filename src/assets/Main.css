@@ -1,0 +1,30 @@
+.main {
+    padding-left: 7em;
+    padding-top: 6em;
+    display: flex;
+}
+.main > h1 {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 5em;
+    line-height: 55px;
+    /* color: var(--accent-color); */
+}
+.main > p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 55px;
+    padding-top: 10rem;
+    padding-right: 15%;
+    padding-left: 4rem;
+}
+.hero-text{
+    font-weight: 600;
+    color: var(--accent-color);
+}
+.alias-text{
+    font-style: italic;
+    /* color: var(--accent-color); */
+}
