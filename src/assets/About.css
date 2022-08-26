@@ -1,0 +1,31 @@
+.about  {
+    padding-left: 7em;
+    padding-top: 6em;
+    display: flex;
+}
+.about > h1 {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 5em;
+    line-height: 55px;
+    /* color: var(--accent-color); */
+}
+.skills{
+    padding-top: 9rem;
+    display: flex;
+    flex-direction: column;
+}
+.skills >h3{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 2em;
+line-height: 64px;
+}
+.skillSet{
+    display: flex;
+    : space-between;
+}
+.skillSet span{
+    align-items: center;
+}

@@ -1,14 +1,15 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar'
 import Main from './components/Main'
+import About from './components/About'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
         <Navbar />
         <Main />
+        <About />
     </div>
   )
 }

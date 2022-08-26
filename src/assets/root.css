@@ -2,8 +2,11 @@
     --accent-color: #1778f2;
     --white: #f7f7f7;
     --black :#070707;
+    cursor: url("../assets/cursor.png") auto;
 }
+
 body{
+
     margin: 0;
     padding:0;
     color: var(--black);
