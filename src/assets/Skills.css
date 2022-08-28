@@ -1,0 +1,28 @@
+.skillSet{
+    display: flex;
+    flex: 0 1 5em;
+    flex-wrap: wrap;
+}
+.skillSet >span {
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.skillSet p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+.skillSet img{
+    width: 4em;
+}
+.skillSet img:hover{
+    transform: translate(0,-10%);
+}
+.skillSet span:hover{
+    color: var(--accent-color);
+}

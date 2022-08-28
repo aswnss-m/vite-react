@@ -10,37 +10,16 @@
     line-height: 55px;
     /* color: var(--accent-color); */
 }
-.skills{
+.subSection{
     padding-top: 9rem;
     display: flex;
     flex-direction: column;
 }
-.skills >h3{
+.subSection h3{
     font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
 font-size: 2em;
 line-height: 64px;
 }
-.skillSet{
-    display: flex;
-    flex: 0 1 5em;
-    flex-wrap: wrap;
-}
-.skillSet >span {
-    margin: 1em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.skillSet p{
-    font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-}
-.skillSet img{
-    width: 4em;
-}
+
