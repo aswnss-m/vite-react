@@ -1,0 +1,36 @@
+.contact{
+    padding-left: 7em;
+    padding-top: 6em;
+    display: flex;
+}
+.contact > h1 {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 5em;
+    line-height: 55px;
+    /* color: var(--accent-color); */
+}
+.contactSection{
+    padding-top: 9rem;
+    display: flex;
+    flex-direction: row;
+    
+}
+.contactSection h3{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 2em;
+line-height: 64px;
+}
+.emailSection{
+    display: flex;
+    flex-direction: column;
+}
+.socialLinkSection{
+    display: flex;
+    flex-direction: column;
+}
+.socialLinkSection img{
+    width: 4em;
+}
