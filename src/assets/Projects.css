@@ -5,9 +5,9 @@
     padding-bottom: 1em;
     margin-bottom: 2em;
 }
-.projectSet h4{
+/* .projectSet h4{
     width: 100%;
-}
+} */
 .projectSet *{
     margin: 2px 1em 2px 0px ;
 
@@ -27,8 +27,14 @@
 .projectCode{
     border: 2px solid var(--black);
     padding: .5em 2em;
+    border-radius: 10px;
 }
 .projectCode:hover{
     background-color: var(--accent-color);
     color: var(--white);
+}
+.blur{
+    -webkit-filter: blur(2px); 
+    -moz-filter: blur(2px); 
+    filter: blur(2px); 
 }
