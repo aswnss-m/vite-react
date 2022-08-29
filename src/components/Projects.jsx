@@ -3,7 +3,7 @@ import "../assets/Projects.css"
 
 function Projects() {
     return(
-    <div className="projects">
+    <div className="projects" id="Projects">
         {/* To Do : Change this design to use a table instead of divs */}
         <h3>Projects</h3>
   

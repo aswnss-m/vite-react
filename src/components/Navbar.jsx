@@ -14,9 +14,9 @@ function Navbar() {
                 {!IsShown && ('Aswnss')}
             </a>
         <ul>
-            <li>about</li>
-            <li>projects</li>
-            <li>contact</li>
+            <li><a href="#About">about</a></li>
+            <li><a href="#Projects">projects</a></li>
+            <li><a href="#Contact">contact</a></li>
         </ul>
         </div>
     )

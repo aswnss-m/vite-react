@@ -6,7 +6,7 @@ import instagram from "../assets/logos/instagram.svg";
 
 function Contact() {
     return(
-        <div className="contact">
+        <div className="contact" id="Contact">
             <h1>
                 Contact
             </h1>

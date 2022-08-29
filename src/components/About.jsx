@@ -5,7 +5,7 @@ import Projects from "./Projects"
 function About() {
 
     return (
-        <div className="about"> 
+        <div className="about" id="About"> 
             <h1>
                 About
             </h1>
