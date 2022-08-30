@@ -23,3 +23,8 @@ font-size: 2em;
 line-height: 64px;
 }
 
+@media screen and (max-width: 480px) {
+    body{
+        overflow-x: hidden !important;
+    }
+}

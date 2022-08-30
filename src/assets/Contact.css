@@ -15,9 +15,6 @@
     display: flex;
     flex-direction: row;
 }
-{
-    margin:0px 1em;
-}
 .contactSection h3{
     font-family: 'Montserrat';
 font-style: normal;
@@ -43,4 +40,9 @@ line-height: 64px;
 }
 .socialLinkSection img{
     width: 4em;
+}
+@media screen and (max-width: 480px) {
+    body{
+        overflow-x: hidden !important;
+    }
 }
