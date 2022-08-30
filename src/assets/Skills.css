@@ -26,3 +26,8 @@
 .skillSet span:hover{
     color: var(--accent-color);
 }
+@media screen and (max-width: 480px) {
+    body{
+        overflow-x: hidden !important;
+    }
+}
